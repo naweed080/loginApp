@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(207, 240, 250, 0.358);
+}
+div {
+    width: 500px;
+    height: 450px;
+    margin: 20px auto;
+    padding: 4px 0px;
+    background-color: rgb(255, 255, 255);
+}
+h1 , h3 {
+    text-align: center;
+    
+}
+h1 {
+    text-transform: uppercase;
+}
+form {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 6px;
+    
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+}
+label {
+    font-size: 1.5rem;
+}
+p {
+    margin: 0px;
+}
+button {
+    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#label {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+input[type="checkbox"] {
+    position: relative;
+    top: -28px;
+    left: -215px;
+    display: inline-block;
+    
+}
+#p-a {
+    text-align: center;
+}
